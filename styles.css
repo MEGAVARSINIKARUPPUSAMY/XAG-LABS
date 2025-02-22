@@ -1,0 +1,66 @@
+ 
+    @import url('https://fonts.googleapis.com/css2?family=Carattere&family=Heebo:wght@300;400;500;600&family=Roboto:ital,wght@0,300;0,400;1,100&display=swap');
+   
+   body{
+    background-color:  rgba(239, 237, 237, 0.658); 
+    font-family: sans-serif;
+ 
+}  
+.navbar {  
+    background-color: white; 
+    height: 120px;
+}  
+.navbar-brand img{
+height: 50px;
+}
+.nav-link {  
+    margin-left: 35px;
+}
+.ourteam{
+    background-color: rgba(242, 234, 234, 0.658);
+    padding-top: 50px;
+    padding-left: 30px;
+    height: 150px;   
+} 
+.personaldetail{
+background-color: #E30655;
+height: 700px;
+font-weight: 200;
+}
+#target{
+    transition: 5s;
+}
+.contactus{
+background-color: orange;
+font-weight: 200;
+}
+.ourteam{
+    background-color: rgba(239, 237, 237, 0.658);
+    padding-top: 40px;
+    padding-left: 20px;
+    height: 400px;  
+    font-weight: 200;
+} 
+.personaldetail{
+background-color: #E30655;
+height: 700px;
+}
+.contactus{
+background-color: orange;
+}
+
+@media (max-width:768px) {
+    .nav-link{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    .nav-link.active{
+        display: flex;
+    }
+    .nav-brand{
+        display: flex;
+    }
+    
+}
